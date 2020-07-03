@@ -1,0 +1,348 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Paragraphs */
+p {
+  color: #666;
+}
+
+.colored-p {
+  color: white;
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 10px;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 1.5;
+  color: #4A90E2;
+}
+
+.big-heading2 {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 5%;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.hello {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.software-engineer {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.hi-there {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #4A90E2;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.get-in-touch {
+  font-family: 'Montserrat', sans-serif;
+  margin: auto auto 5% auto;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #4A90E2;
+}
+
+.connect {
+  color: #666;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.bg-title {
+  background-image: url("../images/mac.jpg");
+  background-size: cover;
+}
+
+.colored-section {
+  background-color: #abc2e8;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-dark .navbar-brand {
+  color: #4A90E2;
+}
+
+.navbar-brand {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #4A90E2;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* .navbar-dark .navbar-nav .nav-link {
+    color: #4A90E2;
+} */
+.nav-link {
+  font-size: 1.0rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+/* Title Section */
+#title {
+  text-align: center;
+  color: white;
+}
+
+#title .overlay {
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  top: 0px;
+  left: 0px;
+  background: #0c0808;
+  opacity: 0.6;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 0;
+}
+
+.social-icon {
+  margin: 40px 5px 10px 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.social-icon:hover {
+  color: #4A90E2;
+  opacity: 0.7;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 15% 0;
+  color: white;
+  border: 2.5px solid #4A90E2;
+}
+
+.download-button:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+/* Introduction Section*/
+#introduction {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+}
+
+.hr-1 {
+  border: solid #abc2e8 1px;
+  border-bottom: none;
+  width: 36%;
+  margin: auto auto 10px auto;
+}
+
+.profile-pic {
+  width: 25%;
+  border: 8px solid #fff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  float: left;
+  margin-right: 7%;
+}
+
+.intro-p {
+  width: 50%;
+  margin: 40px auto 60px;
+  line-height: 1.5;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #4A90E2;
+  /* #f1f1f1 */
+  /* color: white; */
+}
+
+.hr-2 {
+  border: solid #abc2e8 0.2px;
+  border-bottom: none;
+  width: 30%;
+  margin: 2% auto auto auto;
+}
+
+/* .project-text {
+  font-size: 3rem;
+  line-height: 1.5;
+} */
+
+.project-image {
+  width: 80%;
+  margin: 20px;
+}
+
+.project-image2 {
+  width: 40%;
+  margin: 20px;
+}
+
+.project-p {
+  margin: 40px auto 20px;
+  line-height: 2;
+}
+
+.project-icon {
+  margin: 0 5px 50px 5px;
+}
+
+.project-icon:hover {
+  color: black;
+  opacity: 0.7;
+}
+
+.tech-icon {
+  margin: 0 5px 50px 5px;
+}
+
+.tech-icon:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+.other-projects {
+  margin-top: 5%;
+}
+
+.card {
+  background-color: #3880d1;
+}
+.other-projects-heading {
+  /* font-size: 3rem;
+  line-height: 1.5; */
+  text-align: left;
+  color: white;
+  margin: auto 8%;
+}
+
+.other-projects-text {
+  text-align: left;
+  margin: auto 8%;
+  color: white;
+}
+
+.other-projects-column {
+  padding: 3% 2%;
+  display: flex;
+  width: 100%;
+}
+
+.fa-folder-open {
+  color: white;
+  text-align: left;
+  margin: 3% 8% auto;
+  font-size: 30px;
+}
+
+.other-project-icon {
+  color: white;
+  text-align: right;
+  margin: auto 8% auto;
+  font-size: 30px;
+}
+
+.other-tech {
+  text-align: left;
+  margin: 3% 7% auto;
+}
+
+/* Contact Sections */
+.contact-button {
+  margin: 5% auto auto auto;
+}
+
+.contact-button:hover {
+  opacity: 0.7;
+}
+
+.contact-message {
+  width: 55%;
+  margin: 40px auto 6px;
+  line-height: 2;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #4A90E2;
+}
+
+.social-icon2 {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.social-icon2:hover {
+  color: black;
+  opacity: 0.7;
+}
+
+.footer-p {
+  margin-bottom: -5%;
+}
+
+/* Media Query responsiveness */
+@media (max-width: 1028px) {
+  #introduction {
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 30%;
+    float: none;
+    margin: auto;
+  }
+
+}
