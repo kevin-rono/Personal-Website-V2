@@ -113,9 +113,10 @@ p {
   padding: 0 18px;
 }
 
-/* .navbar-dark .navbar-nav .nav-link {
-    color: #4A90E2;
-} */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
 .nav-link {
   font-size: 1.0rem;
   font-family: 'Montserrat', sans-serif;
@@ -258,6 +259,7 @@ p {
 .card {
   background-color: #3880d1;
 }
+
 .other-projects-heading {
   /* font-size: 3rem;
   line-height: 1.5; */
